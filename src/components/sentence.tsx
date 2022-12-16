@@ -2,8 +2,9 @@ const Sentence = () => {
     const answers = [
         "Infelizmente o senhor não tem página no LinkedIn.",
         "Uma vizinha conta que foi padeiro quando era mais novo.",
-        "Diz que é um beto da linha, morava no clube Estoril Praia!",
-        "Desconfiamos que é o Jerónimo com umas plásticas. Alguém já os viu juntos? Nunca!"
+        "Diz que foi um operário da linha, nascido e criado no clube Estoril Praia!",
+        "Desconfiamos que é o Jerónimo com umas plásticas. Alguém já os viu juntos? Nunca!",
+        "É mais um português que ganha o salário mínimo. Pelo menos teve direito ao cheque do Costa..",
       ];
 
       const random = (until: number) => {
@@ -17,7 +18,7 @@ const Sentence = () => {
 
 
     return (
-        <p class="text-2xl">{selected}</p>
+        <p className="text-2xl">{selected}</p>
     )
 }
 
