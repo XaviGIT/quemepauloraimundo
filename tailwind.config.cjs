@@ -4,7 +4,7 @@ module.exports = {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'paulinho' : "url('../public/paulo-raimundo02.webp')",
+				'paulinho' : "url('/paulo-raimundo02.webp')",
 			}
 		},
 	},
