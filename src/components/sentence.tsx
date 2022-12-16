@@ -3,9 +3,8 @@ const Sentence = () => {
         "Infelizmente o senhor não tem página no LinkedIn. Nem Facebook, Nem Tik Tok. Isso seria apoiar o capitalismo!",
         "Uma vizinha conta que foi padeiro quando era mais novo.",
         "Diz que foi um operário da linha, nascido e criado no clube Estoril Praia!",
-        "Desconfiamos que é o Jerónimo com umas plásticas. Alguém já os viu juntos? Nunca!",
+        "Desconfiamos que é o Jerónimo com umas plásticas. Alguém já os viu juntos? Nunca! E o discurso é o mesmo!",
         "É mais um português que ganha o salário mínimo. Pelo menos teve direito ao cheque do Costa..",
-        "O PCP diz que é operário... Mas só trabalhou 4 anitos."
       ];
 
       const random = (until: number) => {
