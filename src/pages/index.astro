@@ -8,7 +8,13 @@ const answers = [
   "Desconfiamos que é o Jerónimo com umas plásticas. Alguém já os viu juntos? Nunca!"
 ];
 
-const selected = answers[Math.floor(Math.random()*answers.length)];
+const random = () => {
+  const date = new Date();
+  return (date.getFullYear() * date.getDate() * (date.getMonth() + 1)) % answers.length;
+}
+
+
+const selected = answers[random()];
 
 ---
 
