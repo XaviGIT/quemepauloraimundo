@@ -5,6 +5,9 @@ const Sentence = () => {
         "Diz que foi um operário da linha, nascido e criado no clube Estoril Praia!",
         "Desconfiamos que é o Jerónimo com umas plásticas. Alguém já os viu juntos? Nunca! E o discurso é o mesmo!",
         "É mais um português que ganha o salário mínimo. Pelo menos teve direito ao cheque do Costa..",
+        "Tem 3 filhos, Lenin, Che e Cunhal.",
+        "Antes de ser eleito líder do partido, nunca foi visto de foice na mão.",
+        "Apesar de ter apenas 46 anos, é uma alma pré-histórica!"
       ];
 
       const random = (until: number) => {
