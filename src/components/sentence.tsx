@@ -7,7 +7,10 @@ const Sentence = () => {
         "É mais um português que ganha o salário mínimo. Pelo menos teve direito ao cheque do Costa..",
         "Tem 3 filhos, Lenin, Che e Cunhal.",
         "Antes de ser eleito líder do partido, nunca foi visto de foice na mão.",
-        "Apesar de ter apenas 46 anos, é uma alma pré-histórica!"
+        "Apesar de ter apenas 46 anos, é uma alma pré-histórica!",
+        "Defende a subida do salário mínimo para 850 euros. Pudera, os 730 que ganha não dão para comprar charutos cubanos..",
+        "Fez o 5º e o 6º ano com a telescola. Um visionário, solidário com as crianças da pandemia.",
+        "Já alguém reparou como é parecido com o sr. da \"Informação Dramática?\"?!"
       ];
 
       const random = (until: number) => {
